@@ -1,0 +1,31 @@
+body {
+    color: rgb(53, 33, 5);
+    margin: 30px;
+    background-color: rgb(200, 229, 229);
+}
+h1{
+    color: rgb(9, 56, 71);
+    text-align: center;
+    
+}
+h1 span{
+    font-size: 50px;
+    color: rgb(65, 6, 6);
+    text-transform: capitalize;
+font-family: <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">;
+}
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+@font-face {
+    font-family: "Trickster";
+    src:url(./PlayfairDisplay-Italic-VariableFont_wght.ttf)
+  }
+  p span{
+    font-family: Trickster ;
+  }
